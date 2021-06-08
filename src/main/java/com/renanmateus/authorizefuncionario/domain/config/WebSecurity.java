@@ -30,7 +30,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 		.antMatchers(HttpMethod.GET,"/funcionarios/","/funcionarios").permitAll()
 		.antMatchers(HttpMethod.POST,"/funcionarios/").hasAnyRole("ADMIN","USER")
 		.antMatchers(HttpMethod.DELETE,"/funcionarios/*").hasRole("ADMIN")
-		.antMatchers(HttpMethod.PATCH,"/funcionarios/*").hasRole("ADMIN")
+		.antMatchers(HttpMethod.PUT,"/funcionarios/*").hasRole("ADMIN")
 		.anyRequest().authenticated().and().csrf().disable()
 		.sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
