@@ -19,7 +19,7 @@ GET /funcionarios/ HTTP/1.1
 Host: localhost:8080  
   
 Autenticação obrigatória com Role USER ou ADMIN 
-- Cadastrando produtos:  
+- Cadastrando funcionários:  
 POST /funcionarios HTTP/1.1  
 Host: localhost:8080  
 Authorization: Basic YWxpbmU6YWxpbmU=  
@@ -54,7 +54,5 @@ Content-Type: application/json
 DELETE /funcionarios/1 HTTP/1.1  
 Host: localhost:8080  
 Authorization: Basic cmVuYW46cmVuYW4=  
-
-
 
 
