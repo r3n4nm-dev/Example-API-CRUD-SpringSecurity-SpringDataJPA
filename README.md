@@ -1,7 +1,7 @@
 # Example-API-CRUD-SpringSecurity-SpringDataJPA
 API simples de sistema de cadastro de funcionários com controle de acesso a recursos.  
 É necessário adicionar o usuário, senha e datasource do seu Banco de dados.  
-Neste exemplos 2 usuários em mémoria foram criados.  
+Neste exemplo 2 usuários em mémoria foram criados.  
 
 - User: renan  
 Password: renan  
